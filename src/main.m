@@ -15,7 +15,7 @@ arm.d2 = arm.l2/2; % center of mass distance along link 2
 
 % for various inertial equations, see: https://en.wikipedia.org/wiki/List_of_moments_of_inertia
 % used inertial around center of mass: I_center = m*L^2/3
-arm.I1 = (1/3)*arm.m1*arm.l1^2; % moment of inertia of link 1 about center of mass     
+arm.I1 = (1/3)*arm.m1*arm.l1^2; % moment of inertia of link 1 about center of mass  ÈÆ¶ËµãÐý×ª¹ßÁ¿   
 arm.I2 = (1/3)*arm.m2*arm.l2^2; % moment of inertia of link 2 about center of mass
 
 % starting forces at end-effector
